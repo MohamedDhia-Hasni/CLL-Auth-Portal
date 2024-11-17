@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLL Signup | Club des Logiciels Libres</title>
+    <link rel="icon" href="images/cll-logo.jfif" type="image/jfif">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="signup-page">
+    <div class="container">
+        <div class="logo-container">
+            <img src="images/cll-logo.jfif" alt="CLL Logo" class="logo">
+            <h1 class="logo-name">CLL: Club des Logiciels Libres</h1>
+        </div>
+
+        
+        <div class="form-container">
+            <div class="form form-signup">
+                <form id="signup-form">
+                    <h2>Sign Up</h2>
+                    <hr><br>
+                    <label for="signup-name">Full Name</label>
+                    <div class="input-with-icon">
+                        <input type="text" id="signup-name" placeholder="Your Full Name" required>
+                        <i class="fas fa-user"></i> 
+                    </div>
+                    <label for="signup-email">Email</label>
+                    <div class="input-with-icon">
+                        <input type="email" id="signup-email" placeholder="abc@cll.com" required>
+                        <i class="fas fa-envelope"></i> 
+                    </div>
+                    <label for="signup-password">Password</label>
+                    <div class="input-with-icon">
+                        <input type="password" id="signup-password" placeholder="Create your password" required>
+                        <i class="fas fa-lock"></i> 
+                    </div>
+                    <button type="submit">Sign Up</button>
+                    <p><a href="login.html" id="switch-to-login">Already have an account? Log in here</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="javas.js"></script>
+</body>
+</html>
